@@ -25,19 +25,21 @@
 1. Зайдите в веб-интерфейс grafana, используя авторизационные данные, указанные в манифесте docker-compose.
 1. Подключите поднятый вами prometheus, как источник данных.
 1. Решение домашнего задания — скриншот веб-интерфейса grafana со списком подключенных Datasource.
- ---  root@test:~/IdeaProjects/monitoring-03-grafana/home# docker-compose up -d---
+ root@test:~/IdeaProjects/monitoring-03-grafana/home# docker-compose up -d
    [+] Running 5/5
    ✔ Network home_monitor-net  Created                                                                                                                         0.1s
    ✔ Volume home_grafana_data  Created                                                                                                                         0.0s
    ✔ Container nodeexporter    Started                                                                                                                         3.8s
    ✔ Container prometheus      Started                                                                                                                         0.9s
    ✔ Container grafana         Started                                                                                                                         1.1s
- ---  root@test:~/IdeaProjects/monitoring-03-grafana/home# docker ps --format "table {{.Names}}\t{{.Status}}"---
+ root@test:~/IdeaProjects/monitoring-03-grafana/home# docker ps --format "table {{.Names}}\t{{.Status}}"
    NAMES                          STATUS
    grafana                        Up 15 seconds
    prometheus                     Up 16 seconds
    nodeexporter                   Up 16 seconds
    shvirtd-example-python-web-1   Up 10 minutes
+
+
 ## Задание 2
 
 Изучите самостоятельно ресурсы:
