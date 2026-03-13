@@ -39,7 +39,7 @@ root@test:~/IdeaProjects/monitoring-03-grafana/home# docker-compose up -d
    nodeexporter                   Up 16 seconds
    shvirtd-example-python-web-1   Up 10 minutes
 ```
-
+![Снимок экрана 2026-03-13 095114.png](../../%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-03-13%20095114.png)
 ## Задание 2
 
 Изучите самостоятельно ресурсы:
@@ -62,11 +62,12 @@ node_load1,node_load5,node_load15
 node_memory_MemFree_bytes
 node_filesystem_free_bytes{fstype!=""}
 ```
+![Снимок экрана 2026-03-13 100941.png](../../%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-03-13%20100941.png)
 ## Задание 3
 
 1. Создайте для каждой Dashboard подходящее правило alert — можно обратиться к первой лекции в блоке «Мониторинг».
 1. В качестве решения задания приведите скриншот вашей итоговой Dashboard.
-
+![Снимок экрана 2026-03-13 103132.png](../../%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-03-13%20103132.png)
 ## Задание 4
 
 1. Сохраните ваш Dashboard.Для этого перейдите в настройки Dashboard, выберите в боковом меню «JSON MODEL». Далее скопируйте отображаемое json-содержимое в отдельный файл и сохраните его.
